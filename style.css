@@ -9,7 +9,7 @@ body{
     margin-left: 3%;
     margin-top: 1.5%;
 
-    background-color: rgb(29, 37, 37);
+    background-color: rgb(29, 33, 37);
     color: beige;
 }
 
@@ -20,4 +20,24 @@ h1{
     font-size: 60px;
 
     color:red
+}
+
+.main-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dice-table{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.dice-table th{
+    background-color: rgb(73, 73, 73);
+    font-weight: 400;    
+}
+.dice-table td{
+    background-color: rgb(99, 99, 99);
 }
