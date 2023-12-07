@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+body{
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1.5%;
+
+    background-color: rgb(29, 37, 37);
+    color: beige;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+
+    color:red
+}
